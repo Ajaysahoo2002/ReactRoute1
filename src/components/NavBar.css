@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+ul .items{
+    text-decoration: none;
+    padding: .3rem .8rem;
+    margin: 0 1rem;
+    border: 2px solid blue;
+    border-radius: .5rem;
+    font-weight: 700;
+    transition: linear 1s;
+}
+ul .items:hover{
+    background-color: blue;
+    color: white;
+    border: transparent;
+}
